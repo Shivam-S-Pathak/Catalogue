@@ -1,0 +1,49 @@
+/* src/components/ProductDetail.module.css */
+.detail {
+  padding: 20px;
+  text-align: center;
+}
+
+.image {
+  max-width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.priceSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+.back-button:hover {
+  background-color: #0056b3;
+}
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.1s ease-in-out;
+}
+
+.add-to-cart-button:hover {
+  background-color: #212d88;
+}
+.back-button:focus,
+.add-to-cart-button:focus {
+  outline: none;
+}
